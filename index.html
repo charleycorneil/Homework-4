@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">About</a>
+      <a href="#" id="open">Login</a>
+    </nav>
+
+    <h1>HOME</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi
+      quos impedit illo quas debitis repellendus est voluptatibus tenetur, quam,
+      quis delectus earum qui laboriosam obcaecati enim labore repellat
+      laudantium.
+      <em>your</em> terms.
+    </p>
+  </div>
+
+  <div class="image-area"></div>
+
+  <section class="website">
+    <h2>Professional Website</h2>
+    <div class="articles-grid">
+      <article>
+        <h3>Example 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          perferendis facilis totam corrupti obcaecati dolorem voluptate minima
+          officia.
+        </p>
+      </article>
+      <article>
+        <h3>Example 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          perferendis facilis totam corrupti obcaecati dolorem voluptate minima
+          officia.
+        </p>
+      </article>
+      <article>
+        <h3>Example 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          perferendis facilis totam corrupti obcaecati dolorem voluptate minima
+          officia.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="newsletter-signup">
+    <h2>Subscribe</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque esse
+      aliquid ab. Expedita deleniti reiciendis vero ab repellendus nobis
+      provident exercitationem unde officia! Ab enim accusantium quod beatae
+      voluptas inventore.
+    </p>
+    <form>
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+   <div class="modal" id="loginPopup">
+      <div class="modal-background close-modal"></div>
+      <div class="alert-pannel">
+        <div class="close-btn close-modal">X</div>
+        <div class="feedback">Please Login</div>
+        <div class="buttons">
+          <div class="save" id="openLoginForm">LOGIN</div>
+          <div class="close close-modal">CLOSE</div>
+        </div>
+      </div>
+    </div>
+
+ <div class="modal hidden" id="loginFormPopup">
+      <div class="modal-background close-modal"></div>
+      <div class="alert-pannel">
+        <div class="close-btn close-modal">X</div>
+        <div class="feedback">Login Form</div>
+        <form>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+          <div class="buttons">
+            <button type="submit" class="save">LOGIN</button>
+            <div class="close close-modal">CLOSE</div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <script type="module" src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
